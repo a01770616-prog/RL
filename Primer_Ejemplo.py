@@ -8,3 +8,8 @@ for i in range(10):
 def suma(a, b):
     return a + b
 print(suma(5, 3))
+
+
+def suma(a, b, c):
+    print(a + b + c)
+    suma()
